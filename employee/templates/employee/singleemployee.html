@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+ 
+{% block content %}
+
+<h4 class="text-center">Single Employee</h4>
+<div class="container-card">
+    <h4 class="text-decoration-underline">Information of Employee </h4>
+    <h6>Emp ID: {{ emp.empID}}</h6>
+    <h6>Name: {{ emp.empName }}</h6>
+    <h6>Email: {{ emp.empEmail }}</h6>
+    <h6>Address: {{ emp.empAddress }}</h6>
+    <h6>Phone: {{ emp.empPhone }}</h6>
+
+</div>
+
+{% endblock content %}   
